@@ -1,0 +1,11 @@
+In Pandas we use DataFrames. 
+What are DataFrames?
+    It is a table (rows and columns )that has entries and each entry has a certain value. For calling a DataFrame we use "pd.DataFrame" #Example code on line 5
+What is Series?
+    It is a single form of data, columns in series does not have name but you can assign names to the rows by using index=. Series has a name overall. #Example code on line 9
+
+reading csv file pd.read_csv('name_of_the_file.csv) 
+    read_csv also has different parameters 
+to check how big file is name_of_the_file.shape
+to check the first row we use name_of_the_file.head()
+
